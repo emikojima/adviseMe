@@ -10,7 +10,8 @@ const introTimeOut = () => {
 )}
 
 const main = () => {
-adviceSlip_div.addEventListener('click', function() {clear(); advise(); $('#advice').show().fadeOut(9000)});
+adviceSlip_div.addEventListener('click', function() {clear(); advise();$('#advice').show().fadeOut(9000);$('#advice-slip').css({"pointer-events": "none"}); setTimeout(function(){$('#advice-slip').css("pointer-events", "auto")}, 8000)});
+
 
 close.addEventListener('click', function() {
   $('#intro').hide()

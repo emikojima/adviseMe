@@ -69,6 +69,7 @@ section {
   box-shadow: 0 10px 10px -10px pink;
   border-radius: 5px;
 }
+
 #advice-slip:hover {
   border-color: cyan;
   box-shadow: 0 10px 10px -10px cyan;
