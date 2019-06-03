@@ -6,7 +6,7 @@ const intro = document.getElementById('intro');
 const clear = () => advice.innerHTML = "";
 const change = () => adviceSlip_div.innerHTML = "";
 const advise = () => {fetch('https://api.adviceslip.com/advice').then(response => response.json()).then(data =>  advice.append(`${data.slip.advice}`))};
-const heart = $('<p>For you <br> with &#x2665</p>')
+const heart = $('<p>For you with &#x2665</p>')
 
 const introTimeOut = () => {
   setTimeout(function(){$('#intro').hide()}, 10000
