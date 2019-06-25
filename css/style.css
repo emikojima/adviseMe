@@ -28,14 +28,15 @@ section {
 }
 
 #intro {
-  margin: 0 auto;
-  text-align: center;
-  position: absolute;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background-color: black;
-  opacity: 0.9;
-  height: 100vh;
   z-index: 500;
-  width: 100%;
+  opacity: .9;
+  text-align: center;
 }
 
 #intro h2 {
